@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+audio {
+  height: 20px;
+
+}
+
+main {
+  background-image: linear-gradient(100deg, #ffa700 0, #ff9700 8.33%, #ff8502 16.67%, #ff7121 25%, #ff5a30 33.33%, #fb4238 41.67%, #e5263d 50%, #cd003f 58.33%, #b70041 66.67%, #a30044 75%, #920047 83.33%, #83004a 91.67%, #75004f 100%);
+}
+
+.sardinillaygeralt {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.portada {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 2px;
+
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    width: 100%
+  }
+}
+
+nav.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: .1fr;
+  gap: 0px 80px;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  grid-template-areas:
+    "Kaer-Morhen Historia Libros Serie Juegos";
+
+}
+
+.Historia {
+  grid-area: Historia;
+}
+
+.Libros {
+  grid-area: Libros;
+}
+
+.Serie {
+  grid-area: Serie;
+}
+
+.Juegos {
+  grid-area: Juegos;
+}
+
+.Kaer-Morhen {
+  grid-area: Kaer-Morhen;
+}
+
+
+nav.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+
+}
+
+
+.nav li {
+  font-size: calc(18px + 0.2vw);
+  font-weight: bold;
+  color: rgb(241, 6, 6);
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  list-style: none;
+  text-align: center;
+}
+
+.nav li a {
+  background: rgb(53, 52, 52);
+  color: rgb(86, 231, 19);
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.nav>li {
+  float: left;
+}
+
+.nav li a:hover {
+  background-color: rgb(69, 80, 85);
+}
+
+.nav .titulo:hover {
+  background-color: rgb(118, 119, 119);
+}
+
+.nav li ul {
+  display: none;
+  position: relative;
+
+}
+
+.nav li:hover>ul {
+  display: block;
+}
+
+main h1 {
+  text-align: center;
+  font-size: calc(30px + 0.2vw);
+  color: blue;
+}
+
+main p {
+  font-size: calc(20px + 0.2vw);
+  color: white;
+}
+
+.table {
+  display: inline-table;
+  font-size: calc(15px + 0.2vw);
+  background: #0a0a0a;
+  align-items: center;
+  margin: auto
+}
+
+caption {
+  text-align: center;
+  font-size: calc(20px + 0.2vw);
+  color: rgb(86, 231, 19);
+  background-color: #a30044;
+}
+
+th {
+  color: #ff8502;
+  font-size: calc(18px + 0.2vw);
+}
+
+footer {
+  background-image: linear-gradient(100deg, #ffa700 0, #ff9700 8.33%, #ff8502 16.67%, #ff7121 25%, #ff5a30 33.33%, #fb4238 41.67%, #e5263d 50%, #cd003f 58.33%, #b70041 66.67%, #a30044 75%, #920047 83.33%, #83004a 91.67%, #75004f 100%);
+}
+
+th {
+  width: 10%;
+}
+
+td {
+  width: 40%;
+
+
+}
+.redes{
+  color:#0a0a0a;
+  font-size: calc(15px + 0.2vw);
+
+}
+
+.footer1 {
+  height: 20px;
+  width: 20px;
+  margin-left: -50px;
+  display: inline;
+  box-shadow: none;
+}
+
+.footer2 {
+  height: 20px;
+  width: 20px;
+  margin-left: -200px;
+  display: inline;
+  box-shadow: none;
+}
+
+.footer3 {
+  height: 20px;
+  width: 20px;
+  margin-right: 50px;
+  display: inline;
+  box-shadow: none;
+
+}
+
+.footer4 {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  display: inline;
+  box-shadow: none;
+}
+
+.derechosycopyright {
+  margin-top: 0px;
+  margin-left: 45%;
+  font-weight: 600;
+}
